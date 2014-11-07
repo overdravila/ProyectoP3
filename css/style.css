@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: yellow;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 110px;
+	background: -moz-linear-gradient(-45deg, rgba(255,161,84,1) 8%, rgba(255,116,0,1) 15%, rgba(255,116,0,1) 15%, rgba(255,116,0,1) 30%, rgba(255,161,84,1) 42%, rgba(255,116,0,1) 56%, rgba(255,161,84,1) 72%, rgba(255,116,0,1) 79%, rgba(255,116,0,1) 83%, rgba(255,165,91,1) 95%);
+	position: relative;
+}
+
+#logo {
+	background:	 url('../imagenes/icono.png') 0 0 no-repeat;
+	height: 110px;
+	width: 110px;
+	float: right;
+	display: inline-block;
+	text-indent: -1000em;
+}
+
+#tituloHeader{
+font:normal 20pt "Comic Sans MS";
+ color:#FFD700;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #000000,
+ /*#c9c9c9,*/
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+	/*font-family:"Comic Sans MS";
+	color: #FFD700;
+    /*text-shadow : 3px  5px  10px #00FF7F;
+	/* #FFFF00*/
+    /*text-shadow: 5px 5px 5px #ffffff;*/
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+#navigation{
+	margin:0 auto;
+	height: 50px;
+	background: -moz-linear-gradient(-45deg, rgba(247,37,0,1) 0%, rgba(241,111,92,1) 7%, rgba(246,41,12,1) 20%, rgba(246,41,12,1) 23%, rgba(241,111,92,1) 35%, rgba(246,41,12,1) 51%, rgba(241,111,92,1) 66%, rgba(240,47,23,1) 78%, rgba(241,111,92,1) 88%, rgba(231,56,39,1) 96%);
+	/* background: -moz-linear-gradient(-45deg, rgba(247,37,0,1) 0%, rgba(241,111,92,1) 6%, rgba(246,41,12,1) 14%, rgba(246,41,12,1) 23%, rgba(241,111,92,1) 34%, rgba(246,41,12,1) 51%, rgba(241,111,92,1) 66%, rgba(240,47,23,1) 83%, rgba(241,111,92,1) 91%, rgba(231,56,39,1) 100%);
+	
+
+}
+
+
